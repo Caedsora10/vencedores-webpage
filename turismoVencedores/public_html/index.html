@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Start your development with FoodHut landing page.">
+    <meta name="author" content="Devcrud">
+    <title>Centro Ecoturistico Vencedores</title>
+   
+    <!-- font icons -->
+    <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
+
+    <link rel="stylesheet" href="assets/vendors/animate/animate.css">
+
+    <!-- Bootstrap + FoodHut main styles -->
+	<link rel="stylesheet" href="assets/css/foodhut.css">
+
+    <!-- Media queries styles -->
+
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
+    
+    <!-- Navbar -->
+
+    <nav class="custom-navbar navbar navbar-expand-lg navbar-blue fixed-top" data-spy="affix" data-offset-top="10">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon">
+            <!-- Add the SVG code here -->
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+            </svg>
+            </span>
+        </button>
+        
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#home">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">Nosotros</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#gallary">Galería</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#book-table">Reserva</a>
+                </li>
+            </ul>
+            <a class="navbar-brand m-auto" href="#">
+                <img src="assets/imgs/logo.png" class="brand-img" alt="">
+                <span class="brand-txt">Centro Ecoturistico Vencedores</span>
+            </a>
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#blog">Cabañas<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#testmonial">Reseñas</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contacto</a>
+                </li>
+                
+            </ul>
+        </div>
+    </nav>
+    <!-- header -->
+    <header id="home" class="header">
+        <div class="overlay text-white text-center">
+            <h1 class="display-2 font-weight-bold my-1">Centro Ecoturístico</h1>
+            <h1 class="display-1 font-weight-bold my-1">Vencedores</h1>
+            <h2 class="display-4 mb-5 my-5">¡Ven a conocernos!</h2>
+            <a class="btn btn-lg btn-green" href="#gallary">Ve nuestra galeria</a>
+        </div>
+    </header>
+
+    <!--  About Section  -->
+    <div id="about" class="container-fluid wow fadeIn" id="about"data-wow-duration="1.5s">
+        <div class="row">
+            <div class="col-lg-6 has-img-bg"></div>
+            <div class="col-lg-6">
+                <div class="row justify-content-center">
+                    <div class="col-sm-8 py-5 my-5">
+                        <h2 class="mb-4">¿Quiénes somos?</h2>
+                        <p>Si realmente amas la naturaleza en vencedores encontrarás su grandeza.</p>
+                        <p>Somos un centro de ecoturismo lleno de actividades y paisajes hermosos, estamos ubicados en el corazón de la sierra madre occidental en Durango.</p>
+                        <p>Centro Ecoturísico Vencedores es un lugar de recreación y destracción, para aquellos que buscan salir de la monotonía de ciudad o pasar un rato agradable, disfutando de la belleza de su flora y fauna.</p>
+                        <p>Contamos con: Renta de cabañas, asadores para convivio, venta de trucha arcoíris, amabilidad seguridad y confianza, acompañamiento a recorridos al centro por personal especializado.</p>
+                        <p>Visita cascadas con mas de 60 metros de caída libre, UMA(Unidad de Manejo para la Conservación de la Vida Silvestre) donde encontrarás venado cola blanca y alce. Senderismo, pesca deportiva, rapel en zona virgen
+                            en el paraje El Tecolote, zona de acampar en el paraje Santa Bárbara, cuevas y rocas con formas talladas por la naturaleza.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- Gallary Section -->
+<div id="gallary" class="text-center bg-dark text-light has-height-md middle-items wow fadeIn">
+    <h2 class="section-title">GALERÍA</h2>
+  </div>
+  <div class="gallary row">
+    <div class="col-sm-6 col-lg-3 gallary-item wow fadeIn">
+        <img src="assets/imgs/gallary-1.jpg" alt="template by DevCRID http://www.devcrud.com/" class="gallary-img">
+        <a href="#gallary" class="gallary-overlay" data-toggle="modal" data-target="#myModal">
+            <i class="gallary-icon ti-plus"></i>
+        </a>
+    </div>
+
+
+    <!-- Add other gallery items here -->
+    <div class="col-sm-6 col-lg-3 gallary-item wow fadeIn">
+        <img src="assets/imgs/gallary-2.jpg" alt="template by DevCRID http://www.devcrud.com/" class="gallary-img">
+        <a href="#gallary" class="gallary-overlay">
+            <i class="gallary-icon ti-plus"></i>
+        </a>
+    </div>
+
+    <div class="col-sm-6 col-lg-3 gallary-item wow fadeIn">
+        <img src="assets/imgs/gallary-3.jpg" alt="template by DevCRID http://www.devcrud.com/" class="gallary-img">
+        <a href="#gallary" class="gallary-overlay">
+            <i class="gallary-icon ti-plus"></i>
+        </a>
+    </div>
+
+    <div class="col-sm-6 col-lg-3 gallary-item wow fadeIn">
+        <img src="assets/imgs/gallary-4.jpg" alt="template by DevCRID http://www.devcrud.com/" class="gallary-img">
+        <a href="#gallary" class="gallary-overlay">
+            <i class="gallary-icon ti-plus"></i>
+        </a>
+    </div>
+
+    <div class="col-sm-6 col-lg-3 gallary-item wow fadeIn">
+        <img src="assets/imgs/gallary-5.jpg" alt="template by DevCRID http://www.devcrud.com/" class="gallary-img">
+        <a href="#gallary" class="gallary-overlay">
+            <i class="gallary-icon ti-plus"></i>
+        </a>
+    </div>
+
+    <div class="col-sm-6 col-lg-3 gallary-item wow fadeIn">
+        <img src="assets/imgs/gallary-6.jpg" alt="template by DevCRID http://www.devcrud.com/" class="gallary-img">
+        <a href="#gallary" class="gallary-overlay">
+            <i class="gallary-icon ti-plus"></i>
+        </a>
+    </div>
+
+    <div class="col-sm-6 col-lg-3 gallary-item wow fadeIn">
+        <img src="assets/imgs/gallary-7.jpg" alt="template by DevCRID http://www.devcrud.com/" class="gallary-img">
+        <a href="#gallary" class="gallary-overlay">
+            <i class="gallary-icon ti-plus"></i>
+        </a>
+    </div>
+
+    <div class="col-sm-6 col-lg-3 gallary-item wow fadeIn">
+        <img src="assets/imgs/gallary-8.jpg" alt="template by DevCRID http://www.devcrud.com/" class="gallary-img">
+        <a href="#gallary" class="gallary-overlay">
+            <i class="gallary-icon ti-plus"></i>
+        </a>
+    </div>
+
+    <div class="col-sm-6 col-lg-3 gallary-item wow fadeIn">
+        <img src="assets/imgs/gallary-9.jpg" alt="template by DevCRID http://www.devcrud.com/" class="gallary-img">
+        <a href="#gallary" class="gallary-overlay">
+            <i class="gallary-icon ti-plus"></i>
+        </a>
+    </div>
+
+    <div class="col-sm-6 col-lg-3 gallary-item wow fadeIn">
+        <img src="assets/imgs/gallary-10.jpg" alt="template by DevCRID http://www.devcrud.com/" class="gallary-img">
+        <a href="#gallary" class="gallary-overlay">
+            <i class="gallary-icon ti-plus"></i>
+        </a>
+    </div>
+
+    <div class="col-sm-6 col-lg-3 gallary-item wow fadeIn">
+        <img src="assets/imgs/gallary-11.jpg" alt="template by DevCRID http://www.devcrud.com/" class="gallary-img">
+        <a href="#gallary" class="gallary-overlay">
+            <i class="gallary-icon ti-plus"></i>
+        </a>
+    </div>
+
+    <div class="col-sm-6 col-lg-3 gallary-item wow fadeIn">
+        <img src="assets/imgs/gallary-12.jpg" alt="template by DevCRID http://www.devcrud.com/" class="gallary-img">
+        <a href="#gallary" class="gallary-overlay">
+            <i class="gallary-icon ti-plus"></i>
+        </a>
+    </div>
+</div>
+  
+    <!-- Modal -->
+    <div id="modal" class="modal">
+        <div class="modal-content">
+        <span class="close">&times;</span>
+        <img id="modal-img" src="">
+       
+        </div>
+    </div>
+
+
+
+
+    <!-- book a table Section  -->
+    <form
+        action="https://formspree.io/f/mvonwyna"
+        method="POST"
+        >
+        <div class="container-fluid has-bg-overlay text-center has-height-lg middle-items" id="book-table">
+            <div class="">
+                <h2 class="section-title mb-5">RESERVA UNA CABAÑA</h2>
+                    <div class="row mb-5">
+                        <div class="col-sm-6 col-md-3 col-xs-12 my-2">
+                            <input type="email" name="email" class="form-control form-control-lg custom-form-control" placeholder="EMAIL">
+                        </div>
+                        <div class="col-sm-6 col-md-3 col-xs-12 my-2">
+                            <input type="number" name="num_visitantes" class="form-control form-control-lg custom-form-control" placeholder="NUM. DE VISITANTES" max="20" min="0">
+                        </div>
+                        <div class="col-sm-6 col-md-3 col-xs-12 my-2">
+                            <input type="time" name="hora" class="form-control form-control-lg custom-form-control" placeholder="EMAIL">
+                        </div>
+                        <div class="col-sm-6 col-md-3 col-xs-12 my-2">
+                            <input type="date" name="fecha" class="form-control form-control-lg custom-form-control" placeholder="12/12/12">
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-lg btn-primary" id="rounded-btn">RESERVA</button>
+            </div>
+        </div>
+    </form>
+    
+
+
+    <!-- BLOG Section  -->
+    <div id="blog" class="container-fluid bg-dark text-light py-5 text-center wow fadeIn">
+        <h2 class="section-title py-5">CABAÑAS DISPONIBLES</h2>
+        
+        <div class="tab-content" id="pills-tabContent">
+            <div class="tab-pane fade show active" id="foods" role="tabpanel" aria-labelledby="pills-home-tab">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card bg-transparent border my-3 my-md-0">
+                            <img src="assets/imgs/blog-1.jpg" alt="template by DevCRID http://www.devcrud.com/" class="rounded-0 card-img-top mg-responsive">
+                            <div class="card-body">
+                                <h1 class="text-center mb-4"><a href="#book-table" class="badge badge-primary">$2500</a></h1>
+                                <h4 class="pt20 pb20">Cabaña Grande</h4>
+                                <p>5 habitaciones</p>
+                                <p>2 baños</p>
+                                <p>Cocineta</p>
+                                <p>Chimenea</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card bg-transparent border my-3 my-md-0">
+                            <img src="assets/imgs/blog-2.jpg" alt="template by DevCRID http://www.devcrud.com/" class="rounded-0 card-img-top mg-responsive">
+                            <div class="card-body">
+                                <h1 class="text-center mb-4"><a href="#book-table" class="badge badge-primary">$1500</a></h1>
+                                <h4 class="pt20 pb20">Cabaña Mediana</h4>
+                                <p>2 habitaciones</p>
+                                <p>1 baño</p>
+                                <p>Cocineta</p>
+                                <p>Chimenea</p>                         
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card bg-transparent border my-3 my-md-0">
+                            <img src="assets/imgs/blog-3.jpg" alt="template by DevCRID http://www.devcrud.com/" class="rounded-0 card-img-top mg-responsive">
+                            <div class="card-body">
+                                <h1 class="text-center mb-4"><a href="#book-table" class="badge badge-primary">$1500</a></h1>
+                                <h4 class="pt20 pb20">Cabaña Mediana</h4>
+                                <p>2 habitaciones</p>
+                                <p>1 baño</p>
+                                <p>Cocineta</p>
+                                <p>Chimenea</p>                           
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card bg-transparent border my-3 my-md-0">
+                            <img src="assets/imgs/blog-4.jpg" alt="template by DevCRID http://www.devcrud.com/" class="rounded-0 card-img-top mg-responsive">
+                            <div class="card-body">
+                                <h1 class="text-center mb-4"><a href="#book-table" class="badge badge-primary">$1000</a></h1>
+                                <h4 class="pt20 pb20">Cabaña Chica</h4>
+                                <p>2 habitaciones</p>
+                                <p>1 baño</p>
+                                <p>Cocineta</p>
+                                <p>Chimenea</p>                         
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="juices" role="tabpanel" aria-labelledby="pills-profile-tab">
+                <div class="row">
+                    <div class="col-md-4 my-3 my-md-0">
+                        <div class="card bg-transparent border">
+                            <img src="assets/imgs/blog-4.jpg" alt="template by DevCRID http://www.devcrud.com/" class="rounded-0 card-img-top mg-responsive">
+                            <div class="card-body">
+                                <h1 class="text-center mb-4"><a href="#" class="badge badge-primary">$15</a></h1>
+                                <h4 class="pt20 pb20">Consectetur Adipisicing Elit</h4>
+                                <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa provident illum officiis fugit laudantium voluptatem sit iste delectus qui ex. </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 my-3 my-md-0">
+                        <div class="card bg-transparent border">
+                            <img src="assets/imgs/blog-5.jpg" alt="template by DevCRID http://www.devcrud.com/" class="rounded-0 card-img-top mg-responsive">
+                            <div class="card-body">
+                                <h1 class="text-center mb-4"><a href="#" class="badge badge-primary">$29</a></h1>
+                                <h4 class="pt20 pb20">Ullam Laboriosam</h4>
+                                <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa provident illum officiis fugit laudantium voluptatem sit iste delectus qui ex. </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 my-3 my-md-0">
+                        <div class="card bg-transparent border">
+                            <img src="assets/imgs/blog-6.jpg" alt="template by DevCRID http://www.devcrud.com/" class="rounded-0 card-img-top mg-responsive">
+                            <div class="card-body">
+                                <h1 class="text-center mb-4"><a href="#" class="badge badge-primary">$3</a></h1>
+                                <h4 class="pt20 pb20">Fugit Ipsam</h4>
+                                <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa provident illum officiis fugit laudantium voluptatem sit iste delectus qui ex. </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- REVIEWS Section  -->
+    <div id="testmonial" class="container-fluid wow fadeIn bg-dark text-light has-height-lg middle-items">
+        <h2 class="section-title my-5 text-center">OPINIONES</h2>
+        <div class="row mt-3 mb-5">
+            <div class="col-md-4 my-3 my-md-0">
+                <div class="testmonial-card">
+                    <h3 class="testmonial-title">Flor Gándara</h3>
+                    <div class="testmonial-body">
+                        <p>Es un lugar de extraordinaria belleza, muy recomendable para hacer trekking, sin duda, un lugar para visitar</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 my-3 my-md-0">
+                <div class="testmonial-card">
+                    <h3 class="testmonial-title">Adriana Rivas</h3>
+                    <div class="testmonial-body">
+                        <p>Me encantó el lugar es hermoso 😍 no pueden dejarlo de visitar en Durango!! super recomendado 🌾🌳🌲🦂</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 my-3 my-md-0">
+                <div class="testmonial-card">
+                    <h3 class="testmonial-title">Gaby Hernández</h3>
+                    <div class="testmonial-body">
+                        <p>un lugar maravilloso  las cabañas muy cómodas,la comida deliciosa me encantó el te de yerbaniz y el pan de elote, las cascadas,el criadero de peces es un lugar mágico excelente atención de los encargados y guias..lo recomiendo ampliamente</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 my-3 my-md-0">
+                <div class="testmonial-card">
+                    <h3 class="testmonial-title">Carmen Juaritos</h3>
+                    <div class="testmonial-body">
+                        <p>es unnlugar maravilloso en plena sierra Durangueña con unas cascadas impresionantes y cabañas comodas ademas truchas recie salida del agua para degustar, recomendaďísimo</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- CONTACT Section  -->
+    <div id="contact" class="container-fluid bg-dark text-light border-top wow fadeIn">
+        <div class="row">
+            <div class="col-md-6 px-0">
+                <div>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d466013.6018321763!2d-105.4385882740207!3d24.146074032389507!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e6!4m5!1s0x869bb6594dac1afb%3A0x3f79e51b24fd1292!2sDurango%2C%20Victoria%20de%20Durango%2C%20Durango!3m2!1d24.069024799999998!2d-104.6187047!4m5!1s0x8699b5c003336e0b%3A0xa161b8a40c0bd927!2sVencedores%2034680%20Dgo.!3m2!1d24.429880999999998!2d-105.71017959999999!5e0!3m2!1ses-419!2smx!4v1679633934042!5m2!1ses-419!2smx" id="map" style="width: 100%; height: 100%; min-height: 400px"></iframe>
+                </div>
+            </div>
+            <div class="col-md-6 px-5 has-height-lg middle-items">
+                <h3>ENCUÉNTRANOS</h3>
+                <p>El ejido Vencedores se localiza en el corazón de la Sierra Madre Occidental, al noroeste de la ciudad de Durango, en el municipio de Dan Dimas.</p>
+                <div class="text-muted">
+                    <p><span class="ti-location-pin pr-3"></span>Domicilio conocido. San Dimas, Dgo. México.</p>
+                    <p><span class="ti-support pr-3"></span>(674) 866-2055</p>
+                    <p><span class="ti-email pr-3"></span>ucodefo4@prodigy.net.mx</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- page footer  -->
+    <div class="container-fluid bg-dark text-light has-height-md middle-items border-top text-center wow fadeIn">
+        <div class="row">
+            <div class="col-sm-4">
+                <h3>CORREO ELECTRÓNICO</h3>
+                <P class="text-muted">ucodefo4@prodigy.net.mx</P>
+            </div>
+            <div class="col-sm-4">
+                <h3>TELÉFONO</h3>
+                <P class="text-muted">(674) 866-2055</P>
+            </div>
+            <div class="col-sm-4">
+                <h3>DIRECCIÓN</h3>
+                <P class="text-muted">Domicilio conocido. San Dimas, Dgo. México.</P>
+            </div>
+        </div>
+    </div>
+   
+    <!-- end of page footer -->
+
+	<!-- core  -->
+    <script src="assets/vendors/jquery/jquery-3.4.1.js"></script>
+    <script src="assets/vendors/bootstrap/bootstrap.bundle.js"></script>
+
+    <!-- bootstrap affix -->
+    <script src="assets/vendors/bootstrap/bootstrap.affix.js"></script>
+
+    <!-- wow.js -->
+    <script src="assets/vendors/wow/wow.js"></script>
+    
+    <!-- google maps -->
+
+    <!-- FoodHut js -->
+    <script src="assets/js/foodhut.js"></script>
+
+
+
+</body>
+</html>
